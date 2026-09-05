@@ -62,7 +62,7 @@ function Login() {
       <div className="auth-side">
         <div className="auth-side-content">
           <h1>Every document, filed once, found forever.</h1>
-          <p>DocSphere keeps personal and professional paperwork sorted by category, tag and date.</p>
+          <p>Document Management System keeps personal and professional paperwork sorted by category, tag and date.</p>
         </div>
         <div>
           <div className="filing-marks">
