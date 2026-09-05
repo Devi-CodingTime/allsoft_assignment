@@ -5,7 +5,7 @@ const BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://apis.allsoft.co/a
 export const apiClient = axios.create({ baseURL: BASE_URL, timeout: 30000 });
 
 apiClient.interceptors.request.use((config) => {
-  const token = localStorage.getItem('docsphere_token');
+  const token = localStorage.getItem('token');
   if (token) config.headers.token = token;
   return config;
 });
